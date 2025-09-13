@@ -29,7 +29,7 @@ export default function Carousel({ products }) {
   <div className="absolute inset-0 bg-black/30 rounded"></div>
 
 
-  <div className="relative z-10 text-white p-4 text-xl flex flex-col justify-center items-center bg-black/50 rounded-3xl">
+  <div className="relative z-10 text-white p-4 text-xl flex flex-col justify-center items-center shadow   rounded-3xl">
     <h3 className="text-2xl font-semibold">{currentProduct.name}</h3>
     {price && (
       <p className="mt-2">

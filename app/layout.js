@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body className='flex min-h-full flex-col bg-white'>
+      <body className='flex min-h-full flex-col bg-[#f5f5f5]'>
         <Navbar/>
      <main className="flex-grow container mx-auto px-4 py-8">   {children} </main>
       </body>
