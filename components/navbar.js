@@ -19,7 +19,7 @@ return(
 
 <Link className="hover:bg-neutral-300 hover:rounded-2xl px-3 py-1 " href='/'>Home</Link>
 <Link className="hover:bg-neutral-300 hover:rounded-2xl px-3 py-1 " href='/products'>Prouducts</Link>
-<Link className="hover:bg-neutral-300 hover:rounded-2xl px-3 py-1 " href='/'>Checkout</Link>
+<Link className="hover:bg-neutral-300 hover:rounded-2xl px-3 py-1 " href='/checkout'>Checkout</Link>
 </div>
 <div className="flex items-center space-x-4"></div>
 </div> 
