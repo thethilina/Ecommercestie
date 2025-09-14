@@ -4,6 +4,7 @@ import { stripe } from "@/lib/stripe";
 import Link from "next/link";
 import  Carousel  from "@/components/carousel";
 import pp from '../public/pp.png'
+
 export default async function Home() {
   
   const products = await stripe.products.list (
