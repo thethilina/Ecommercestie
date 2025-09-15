@@ -26,7 +26,8 @@ return(
     <input value={searchText} onChange={(e)=>{setSearchtext(e.target.value)}} type ="text" placeholder="Search products....." className="border-blue-500 border-2 text-xl py-1 px-2 rounded-xl" />
 </div>
 
-<ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center gap-y-10 gap-x-6 py-5">
+<ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 
+            place-items-center gap-6 py-5">
 
 
 {search.map((product)=>(

@@ -1,6 +1,6 @@
 import { stripe } from "@/lib/stripe";
-import ProductDetails from "@/components/ProductDetails";
-
+import ProductDetails
+ from "@/components/ProductDetails";
 export default async function ProductPage({ params }) {
     const { id } = await params; 
 
@@ -8,5 +8,7 @@ export default async function ProductPage({ params }) {
         expand: ["default_price"],
     });
 
-    return <ProductDetails product={product} />;
+    const plainProduct = JSON.parse(JSON.stringify(product));
+
+    return <ProductDetails product={plainProduct} />;
 }
