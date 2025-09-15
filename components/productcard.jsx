@@ -6,7 +6,7 @@ export default function ProductCard ({product}) {
 
     return(
 
-    <Link href = "/product/1" className="bg-neutral-200 w-60 pb-4 hover:shadow-2xs">
+    <Link href = {`/products/${product.id}`} className="bg-neutral-200 w-60 pb-4 hover:shadow-2xs">
 
     <div>
 
